@@ -1,0 +1,434 @@
+* {
+  -webkit-margin-before: unset;
+          margin-block-start: unset;
+  -webkit-margin-after: unset;
+          margin-block-end: unset;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #212529;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 32px;
+}
+
+ul {
+  list-style: none;
+  -webkit-padding-start: unset;
+          padding-inline-start: unset;
+}
+
+.bgc-red {
+  background-color: red;
+}
+
+.list-style-disc {
+  list-style-type: disc;
+}
+
+.list-style-disc > li {
+  margin-left: 20px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: unset;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: unset;
+}
+
+.font-lightgray {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.userAvatar {
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.btn-primary {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-primary:hover {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-reverse {
+  color: #198754;
+  font-weight: bold;
+  border: 1px solid #198754;
+}
+
+.btn-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+
+.highlight-CSS {
+  color: #198754;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  color: #212529;
+  background-color: #f8f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar__logo {
+  background-image: url("../../../assets/images/logo-ANSWER.svg");
+  width: 150px;
+  height: 40px;
+  margin: 32px;
+  background-size: 100% 100%;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.sidebar__list {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sidebar__listItem {
+  padding: 4px 0;
+  margin-bottom: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.sidebar__listItem > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 31px;
+}
+
+.sidebar__listItem span {
+  margin-right: 18px;
+}
+
+.sidebar__listItem:hover {
+  color: #198754;
+}
+
+.sidebar .listItem-active {
+  color: #198754;
+  border-left: 4px solid #198754;
+}
+
+.sidebar__personalInfoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px 32px;
+}
+
+.sidebar__personalInfoBox > .info {
+  margin-left: 16px;
+}
+
+.sidebar__personalInfoBox .name {
+  font-size: unset !important;
+  margin-bottom: unset;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__leftBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__rightBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__rightBox > span {
+  margin-left: 26px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__rightBox > span:hover {
+  color: #198754;
+}
+
+.header__pageTitle {
+  margin-right: 48px;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.dropdown .btn {
+  padding: 0.375em 0;
+}
+
+.dropdown > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown > a > span {
+  color: #198754;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.assignmentPage .main__topBox {
+  margin-bottom: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assignmentPage .main__centerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.assignmentPage .questionsList {
+  max-width: 320px;
+  border: 1px solid #ced4da;
+}
+
+.assignmentPage .questionItem {
+  color: #212529;
+  padding: 12px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.assignmentPage .questionItem:hover {
+  color: #198754;
+}
+
+.assignmentPage .questionItem__topBox {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.assignmentPage .questionItem__title {
+  font-size: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assignmentPage .questionItem-active {
+  background-color: #f8f9fa;
+}
+
+.assignmentPage .questionItem + .questionItem {
+  border-top: 1px solid #ced4da;
+}
+
+.assignmentPage .questionDetailBox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 16px;
+}
+
+.assignmentPage .questionDetailBox .border-gray {
+  border: 1px solid #ced4da;
+  margin-bottom: 16px;
+}
+
+.assignmentPage .questionDetailBox__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ced4da;
+  padding: 16px 12px;
+  color: #212529;
+}
+
+.assignmentPage .questionDetailBox__header .chapterName {
+  font-size: 12px;
+}
+
+.assignmentPage .questionDetailBox__messagesList {
+  padding: 16px 32px;
+  max-height: 460px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.assignmentPage .questionDetailBox__messageItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.assignmentPage .questionDetailBox__messageItem .userAvatar {
+  margin-right: 8px;
+}
+
+.assignmentPage .questionDetailBox .message {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 16px;
+}
+
+.assignmentPage .questionDetailBox .message > header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assignmentPage .questionDetailBox .message > header span + span {
+  margin-left: 24px;
+}
+
+.assignmentPage .questionDetailBox .message__content {
+  font-size: 14px;
+  margin: 16px 0;
+}
+
+.assignmentPage .questionDetailBox__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assignmentPage .questionDetailBox__footer .material-icons + .material-icons {
+  margin-left: 23px;
+}
+
+.assignmentPage .questionDetailBox__footer .btn-primary {
+  margin-left: 16px;
+}
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,274 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="assignmentPage page">
+    <header class="header">
+        <section class="header__leftBox">
+            <h2 class="header__pageTitle">
+                Assignment 
+            </h2>
+            <div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                   All Courses
+                    <span class="material-icons">
+                        expand_more
+                    </span>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="header__rightBox">
+            <span class="material-icons">
+            search
+            </span>
+            <span class="material-icons">
+            notifications_active
+            </span>
+        </section>
+    </header>
+
+    
+    <main>
+        <section class='main__topBox'>
+            <div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                   All (4)
+                    <span class="material-icons">
+                        expand_more
+                    </span>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <p class="font-lightgray">2 comments</p>
+        </section>
+        <div class='main__centerBox'>
+            <section>
+                <ul class="questionsList">
+                    <li class="questionItem questionItem-active">
+                        <a href="">
+                            <div class="questionItem__topBox">
+                                <p class="questionItem__chapter">Chapter Assignment 2</p>
+                                <span class="questionItem__time">4 hrs ago</span>
+                            </div>
+                            <h4 class="questionItem__title">
+                                Please check this file…
+                                <p class="questionItem__name font-lightgray">Emily Wang</p>
+                            </h4>
+                        </a>
+                    </li>
+                     <li class="questionItem">
+                        <a href="">
+                            <div class="questionItem__topBox">
+                                <p class="questionItem__chapter">Chapter Assignment 2</p>
+                                <span class="questionItem__time">4 hrs ago</span>
+                            </div>
+                            <h4 class="questionItem__title">
+                                Please check this file…
+                                <span class="questionItem__name font-lightgray">Emily Wang</span>
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="questionItem">
+                        <a href="">
+                            <div class="questionItem__topBox">
+                                <p class="questionItem__chapter">Chapter Assignment 2</p>
+                                <span class="questionItem__time">4 hrs ago</span>
+                            </div>
+                            <h4 class="questionItem__title">
+                                Please check this file…
+                                <span class="questionItem__name font-lightgray">Emily Wang</span>
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="questionItem">
+                        <a href="">
+                            <div class="questionItem__topBox">
+                                <p class="questionItem__chapter">Chapter Assignment 2</p>
+                                <span class="questionItem__time">4 hrs ago</span>
+                            </div>
+                            <h4 class="questionItem__title">
+                                Please check this file…
+                                <span class="questionItem__name font-lightgray">Emily Wang</span>
+                            </h4>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="questionDetailBox">
+                <div class="border-gray">
+                    <header class="questionDetailBox__header"> 
+                        <h4 class="title">
+                            <p class="chapterName">Chapter Assignment 2 / HTML&CSS</p>
+                           Please check this file for me, thanks!
+                        </h4>        
+                        <span class="material-icons">
+                        more_vert
+                        </span>
+                    </header>
+                    <ul class="questionDetailBox__messagesList">
+                        <li class="questionDetailBox__messageItem">
+                            <img  src="./assets/images/emilywang.jpeg" alt="user avatar" class="userAvatar">
+                            <div class="message">
+                                <header>
+                                    <div>
+                                        <h5 class="message__userName">Emily Wang</h5>
+                                        <p class="message__time font-lightgray">10:38 AM (4 hours ago)</p>
+                                    </div>
+
+                                    <!-- <div class="functionsBox">
+                                        <span class="material-icons">
+                                        star_border
+                                        </span>
+                                        <span class="material-icons">
+                                        edit
+                                        </span>
+                                    </div> -->
+                                </header>
+                                <article class="message__content">
+                                    <p>
+                                    Hi Teacher, the attached file is my homework of chapter 2. 
+                                    And here comes a question: Why in the following code the height of the <span class='highlight-CSS'>div</span>  is bigger than the height of the <span class='highlight-CSS'>img</span>  ? There is a gap below the image, but it doesn’t seems to be a padding/margin. <br /> 
+                                    What is the gap or extra space below image?
+                                    </p>
+                                   
+                                </article>
+                                <button class="btn btn-download">
+                                    <span class="material-icons">
+                                    attach_file
+                                    </span>     
+                                    HW-2-David.zip
+                                </button>
+                            </div>
+                        </li>
+                         <li class="questionDetailBox__messageItem">
+                            <img  src="./assets/images/andychen.jpeg" alt="user avatar" class="userAvatar">
+                            <div class="message">
+                                <header>
+                                    <div>
+                                        <h5 class="message__userName">Andy Chen (You)</h5>
+                                        <p class="message__time font-lightgray">13:24 AM (1 hours ago)</p>
+                                    </div>
+
+                                    <div class="functionsBox">
+                                        <span class="material-icons">
+                                        star_border
+                                        </span>
+                                        <span class="material-icons">
+                                        edit
+                                        </span>
+                                    </div>
+                                </header>
+                                <article class="message__content ">
+                                    <p> Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. </p>
+                                    <br>
+                                    <p>  You can: </p> 
+                                    <br>
+                                    <br>
+                                    <ul class='list-style-disc'>
+                                        <li> adjust the <span class="highlight-CSS"> vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight-CSS">middle</span>   ) or 　</li>
+                                        <li>change the  <span class="highlight-CSS">display</span> so it isn’t inline.</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </li>
+                        <li class="questionDetailBox__messageItem">
+                            <img  src="./assets/images/andychen.jpeg" alt="user avatar" class="userAvatar">
+                            <div class="message">
+                                <header>
+                                    <div>
+                                        <h5 class="message__userName">Andy Chen (You)</h5>
+                                        <p class="message__time font-lightgray">13:24 AM (1 hours ago)</p>
+                                    </div>
+
+                                    <div class="functionsBox">
+                                        <span class="material-icons">
+                                        star_border
+                                        </span>
+                                        <span class="material-icons">
+                                        edit
+                                        </span>
+                                    </div>
+                                </header>
+                                <article class="message__content ">
+                                    <p> Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. </p>
+                                    <br>
+                                    <p>  You can: </p> 
+                                    <br>
+                                    <br>
+                                    <ul class='list-style-disc'>
+                                        <li> adjust the <span class="highlight-CSS"> vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight-CSS">middle</span>   ) or 　</li>
+                                        <li>change the  <span class="highlight-CSS">display</span> so it isn’t inline.</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </li>
+                        <li class="questionDetailBox__messageItem">
+                            <img  src="./assets/images/andychen.jpeg" alt="user avatar" class="userAvatar">
+                            <div class="message">
+                                <header>
+                                    <div>
+                                        <h5 class="message__userName">Andy Chen (You)</h5>
+                                        <p class="message__time font-lightgray">13:24 AM (1 hours ago)</p>
+                                    </div>
+
+                                    <div class="functionsBox">
+                                        <span class="material-icons">
+                                        star_border
+                                        </span>
+                                        <span class="material-icons">
+                                        edit
+                                        </span>
+                                    </div>
+                                </header>
+                                <article class="message__content ">
+                                    <p> Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. </p>
+                                    <br>
+                                    <p>  You can: </p> 
+                                    <br>
+                                    <br>
+                                    <ul class='list-style-disc'>
+                                        <li> adjust the <span class="highlight-CSS"> vertical-align</span> of the image to position it elsewhere (e.g. the <span class="highlight-CSS">middle</span>   ) or 　</li>
+                                        <li>change the  <span class="highlight-CSS">display</span> so it isn’t inline.</li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+                <footer class="questionDetailBox__footer">
+                    <nav>
+                        <span class="material-icons">
+                        chevron_left
+                        </span>
+                        <span class="material-icons">
+                        chevron_right
+                        </span>
+                    </nav>
+                    <div class="btnBox">
+                        <button class="btn btn-reverse">Mark as read</button>
+                        <button class="btn btn-primary">Reply</button>
+                    </div>
+                </footer>
+            </section>
+        </div>
+    </main>
+          
+</div>
+
+
+
