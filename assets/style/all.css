@@ -154,6 +154,7 @@ a:hover {
   padding: 4px 0;
   margin-bottom: 25px;
   -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 
@@ -232,6 +233,7 @@ a:hover {
   margin-left: 26px;
   cursor: pointer;
   -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -294,6 +296,7 @@ a:hover {
   color: #212529;
   padding: 12px;
   -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
   transition: 0.7s;
 }
 
@@ -431,4 +434,5 @@ a:hover {
 .assignmentPage .questionDetailBox__footer .btn-primary {
   margin-left: 16px;
 }
+
 /*# sourceMappingURL=all.css.map */
