@@ -1,0 +1,57 @@
+.modal {
+  top: unset;
+  left: unset;
+  height: unset;
+}
+//   背景顏色還原
+.modal-backdrop {
+  background-color: transparent;
+  display: none;
+}
+.reply-modal {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  max-width: unset;
+
+  .modal-dialog {
+    max-width: unset;
+    height: 100%;
+    margin: unset;
+  }
+  .modal-content {
+    border-radius: unset;
+    height: 320px;
+  }
+
+  .modal-header {
+    justify-content: unset;
+    background-color: $gray-100;
+    & > span {
+      margin-left: 30px;
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    & > span:hover {
+      color: $green;
+    }
+  }
+
+  .modal-body {
+    padding: unset;
+
+    & > textarea {
+      padding: 15px;
+      width: 100%;
+      height: 100%;
+      border: none;
+      // 將伸縮三角形拿掉
+      resize: none;
+      outline: none;
+    }
+  }
+  .modal-footer {
+    border-top: unset;
+  }
+}

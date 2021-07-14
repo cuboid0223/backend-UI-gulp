@@ -56,6 +56,7 @@ current: index
             <p class="font-lightgray">2 comments</p>
         </section>
         <div class='main__centerBox'>
+            <!-- 問題清單 -->
             <section>
                 <ul class="questionsList">
                     <li class="questionItem questionItem-active">
@@ -108,7 +109,9 @@ current: index
                     </li>
                 </ul>
             </section>
+            <!--  回覆區  -->
             <section class="questionDetailBox">
+                <!-- 問題 header 與 回覆清單 -->
                 <div class="border-gray">
                     <header class="questionDetailBox__header"> 
                         <h4 class="title">
@@ -249,7 +252,7 @@ current: index
                         </li>
                     </ul>
                 </div>
-               
+                <!-- 回覆按鈕 與 標記已讀 -->
                 <footer class="questionDetailBox__footer">
                     <nav>
                         <span class="material-icons">
@@ -261,12 +264,67 @@ current: index
                     </nav>
                     <div class="btnBox">
                         <button class="btn btn-reverse">Mark as read</button>
-                        <button class="btn btn-primary">Reply</button>
+                        <button class="btn btn-primary"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Reply</button>
                     </div>
                 </footer>
+                 <!-- Modal -->
+                <div class="reply-modal modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <form class="modal-content">
+                        <div class="modal-header">
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Body Text
+                                    <span class="material-icons color-black">
+                                    arrow_drop_down
+                                    </span>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <span class="material-icons">
+                            format_bold
+                            </span>
+                            <span class="material-icons">
+                            format_italic
+                            </span>
+                            <span class="material-icons">
+                            list
+                            </span>
+                            <span class="material-icons">
+                            format_list_numbered
+                            </span>
+                            <span class="material-icons">
+                            image
+                            </span>
+                            <span class="material-icons">
+                            link
+                            </span>
+                            <span class="material-icons">
+                            code
+                            </span>
+                        </div>
+                        <div class="modal-body">
+                        <textarea placeholder="Reply an answer…" name="reply-content" id="reply-content">
+
+                        </textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-reverse" data-bs-dismiss="modal">Cancel</button>
+                            <input type="submit" class="btn btn-primary" value="Reply" />
+                        </div>
+                    </form>
+                </div>
+                </div>
             </section>
         </div>
     </main>
+
+   
           
 </div>
 
