@@ -1,6 +1,10 @@
 "use strict";
 
 $(function () {
-  console.log('Hello Bootstrap5');
+  console.log("Hello Bootstrap5"); //   display none the backdrop of the replyModal
+
+  $("#replyModal").modal({
+    backdrop: false
+  });
 });
 //# sourceMappingURL=all.js.map
