@@ -1,0 +1,32 @@
+.adminPage {
+  display: flex;
+  flex-direction: column;
+
+  & > main {
+     
+    flex: 1;
+  }
+  & > footer {
+    .pagination {
+      width: fit-content;
+      margin-left: auto;
+    }
+  }
+
+  .table {
+    // .id-col {
+    //   display: flex;
+    //   align-items: center;
+    // }
+
+    .functionsBox {
+      .btn-icon + .btn-icon {
+        margin-left: 20px;
+      }
+      & > div {
+        width: fit-content;
+        margin-left: auto;
+      }
+    }
+  }
+}

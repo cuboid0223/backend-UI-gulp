@@ -1,11 +1,12 @@
 ---
-title: Boostrap Index
+title: Assignment
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
 <div class="assignmentPage page">
+    <!-- 頁面標題 -->
     <header class="header">
         <section class="header__leftBox">
             <h2 class="header__pageTitle">
@@ -55,7 +56,7 @@ current: index
             </div>
             <p class="font-lightgray">2 comments</p>
         </section>
-        <div class='main__centerBox'>
+        <section class='main__centerBox'>
             <!-- 問題清單 -->
             <section>
                 <ul class="questionsList">
@@ -264,11 +265,11 @@ current: index
                     </nav>
                     <div class="btnBox">
                         <button class="btn btn-reverse">Mark as read</button>
-                        <button class="btn btn-primary"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Reply</button>
+                        <button  class=" btn btn-primary"  type="button"  data-bs-toggle="modal" data-bs-target="#replyModal">Reply</button>
                     </div>
                 </footer>
-                 <!-- Modal -->
-                <div class="reply-modal modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <!-- Reply Modal -->
+                <div class="reply-modal modal fade " id="replyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <form class="modal-content">
                         <div class="modal-header">
@@ -321,7 +322,7 @@ current: index
                 </div>
                 </div>
             </section>
-        </div>
+        </section>
     </main>
 
    

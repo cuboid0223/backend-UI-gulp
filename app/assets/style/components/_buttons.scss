@@ -1,0 +1,80 @@
+.btn {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: $green;
+  border-color: $green;
+
+  &:hover {
+    background-color: $green;
+    border-color: $green;
+  }
+}
+
+.btn-reverse {
+  color: $green;
+  border: 1px solid $green;
+}
+
+.btn-reverse-borderGray {
+  width: 100%;
+  padding: 16px 0;
+  color: $green;
+  border: 1px solid $gray-400;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+
+  background-color: $gray-100;
+  border: 1px solid $gray-400;
+}
+
+.btn-with-icon {
+  display: flex;
+  align-items: center;
+
+  .material-icons {
+    margin-right: 8px;
+  }
+}
+
+.btn-icon {
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+
+  & > span {
+    width: 22px;
+    height: 15px;
+  }
+
+  .small {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.btn-disable {
+  width: 100%;
+  color: $gray-400;
+  border: 1px solid $gray-400;
+}
+
+.icon-green {
+  color: $green;
+}
+
+.icon-black {
+  color: black !important;
+}
+
+.icon-gray {
+  color: $gray-400;
+}
+
+.icon-alert {
+  color: red !important;
+}

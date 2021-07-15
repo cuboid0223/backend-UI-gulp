@@ -1,7 +1,6 @@
 //@import "functions";
 @import "./helpers/variables";
 //@import "bootstrap";
-
 @import "./helpers/global";
 
 //components
@@ -9,5 +8,10 @@
 @import "../style/components/header";
 @import "../style/components/dropdown";
 @import "../style/components/replyModal";
+@import "../style/components/buttons";
+@import "../style/components/pagination";
+@import "../style/components/editModal";
+@import "../style/components/userDetailModal";
 // page
 @import "../style/pages/AssignmentPage";
+@import "../style/pages/AdminPage";

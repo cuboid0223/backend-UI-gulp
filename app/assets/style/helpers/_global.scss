@@ -19,19 +19,26 @@ body {
   padding: 32px;
 }
 
+dl,
+ol,
 ul {
   list-style: none;
   padding-inline-start: unset;
+  margin-bottom: 0;
 }
 
-.bgc-red{
-    background-color:red;
+.bgc-red {
+  background-color: red;
+}
+
+.bgc-gray {
+  background-color: $gray-100;
 }
 
 .list-style-disc {
   list-style-type: disc;
-  & > li{
-      margin-left: 20px;
+  & > li {
+    margin-left: 20px;
   }
 }
 
@@ -77,32 +84,17 @@ a {
   border-radius: 50%;
 }
 
-.btn-primary {
-  background-color: $green;
-  border-color: $green;
-
-  &:hover {
-    background-color: $green;
-    border-color: $green;
-  }
-}
-
-.btn-reverse {
-  color: $green;
-  font-weight: bold;
-  border: 1px solid $green;
-}
-
-.btn-download {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  background-color: $gray-100;
-  border: 1px solid $gray-400;
-}
-
 .highlight-CSS {
   color: $green;
   background-color: $gray-100;
 }
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+
 

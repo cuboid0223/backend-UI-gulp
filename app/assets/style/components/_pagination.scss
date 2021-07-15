@@ -1,0 +1,30 @@
+.pagination {
+  border: 1px solid $green;
+
+  li {
+    align-items: center;
+    border-left: 1px solid $green;
+    width: 32px;
+    height: 32px;
+  }
+  li:first-child {
+    border-left: unset;
+  }
+  .page-link {
+    border: unset;
+    background-color: unset;
+    color: $gray-900;
+    line-height: 1;
+    padding: 7px 11px;
+  }
+  .page-link-active {
+    background-color: $green !important;
+    & > a {
+      color: white !important;
+    }
+  }
+  .arrow-left,
+  .arrow-right {
+    padding: 4px;
+  }
+}

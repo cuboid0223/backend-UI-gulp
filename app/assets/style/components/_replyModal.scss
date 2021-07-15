@@ -1,13 +1,11 @@
-.modal {
-  top: unset;
-  left: unset;
-  height: unset;
+.questionDetailBox {
+  .modal {
+    top: unset;
+    left: unset;
+    height: unset;
+  }
 }
-//   背景顏色還原
-.modal-backdrop {
-  background-color: transparent;
-  display: none;
-}
+
 .reply-modal {
   position: absolute !important;
   bottom: 0;

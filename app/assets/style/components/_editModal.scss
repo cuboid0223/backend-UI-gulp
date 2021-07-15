@@ -1,0 +1,58 @@
+.edit-modal {
+  .modal-header {
+    border-bottom: unset;
+  }
+  .modal-title {
+    font-size: $font-l;
+    font-weight: bold;
+  }
+
+  label {
+    margin-bottom: 4px;
+  }
+  .modal-inputText {
+    padding: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+  }
+
+  .modal-body {
+    & > div {
+      border-bottom: 1px solid $gray-400;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+
+      &:last-child{
+          margin-bottom: 0;
+      }
+    }
+
+    .time {
+      font-size: $font-s;
+    }
+
+    h6 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .dropdown {
+    padding: 16px;
+    width: 100%;
+    border: 1px solid $gray-900;
+    .material-icons {
+      margin-left: auto;
+    }
+  }
+
+  .modal-footer {
+    border-top: unset;
+  }
+}
